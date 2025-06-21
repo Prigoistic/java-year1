@@ -13,7 +13,6 @@ public class Producer_Consumer {
 
 
         });
-
         Thread consumer = new Thread(()->{
             try {
                 worker.Consume();
